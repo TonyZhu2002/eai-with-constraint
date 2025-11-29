@@ -1,0 +1,23 @@
+{
+    "trajectory_evaluation": {
+        "execution_success_rate": 0.47,
+        "grammar_error": {
+            "parsing": 0.0,
+            "hallucination": 0.03,
+            "predicate_argument_number": 0.0
+        },
+        "runtime_error": {
+            "wrong_order": 0.09,
+            "missing_step": 0.4,
+            "affordance": 0.01,
+            "additional_step": 0.06
+        }
+    },
+    "goal_evaluation": {
+        "task_success_rate": 0.38,
+        "state_goal": 0.45,
+        "relation_goal": 0.4624,
+        "action_goal": 0,
+        "total_goal": 0.459
+    }
+}
